@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Focus Lab 21 — EducationalLabsHDT</title>
+  <meta name="description" content="Kit digital de 21 días para estudiar con sistema. Planner, memoria y checklists. EducationalLabsHDT." />
+  <style>
+    :root { --bg:#0b1220; --card:#121b2e; --accent:#4fd1c5; --text:#e8eef8; --muted:#9aa8c0; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, system-ui, sans-serif; background:var(--bg); color:var(--text); }
+    header, main, footer { max-width:960px; margin:0 auto; padding:24px 20px; }
+    .brand { letter-spacing:.12em; font-size:12px; color:var(--accent); text-transform:uppercase; }
+    h1 { font-size:clamp(28px,5vw,48px); line-height:1.15; margin:12px 0; }
+    p { color:var(--muted); line-height:1.6; }
+    .hero { display:grid; gap:24px; }
+    .price { font-size:28px; color:#fff; }
+    .cta { display:inline-block; background:var(--accent); color:#04201c; font-weight:700; padding:14px 22px; border-radius:10px; text-decoration:none; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin-top:28px; }
+    .card { background:var(--card); padding:18px; border-radius:14px; border:1px solid #22304a; }
+    .shop { margin-top:40px; padding:24px; border:1px dashed #2d3f5c; border-radius:16px; }
+    footer { color:#6d7b93; font-size:13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">EducationalLabsHDT</div>
+    <div class="hero">
+      <h1>Estudia 21 días con un sistema, no con suerte.</h1>
+      <p>Focus Lab 21 es un kit digital para estudiantes y padres: planner, técnicas de memoria y checklist de examen. Contenido apto para todo público. Entrega inmediata.</p>
+      <div class="price">$27 USD</div>
+      <a class="cta" href="mailto:sales@educationallabshdt.com?subject=Quiero%20Focus%20Lab%2021">Comprar Focus Lab 21</a>
+    </div>
+  </header>
+  <main>
+    <section class="grid">
+      <article class="card"><h3>Planner 21 días</h3><p>Semanas cortas, bloques de estudio y revisión. Imprime o usa en tablet.</p></article>
+      <article class="card"><h3>Memoria que funciona</h3><p>Active recall, repetición espaciada y Pomodoro explicados sin jerga inútil.</p></article>
+      <article class="card"><h3>Checklist de examen</h3><p>Qué hacer 7 días, 48 horas y la mañana del examen.</p></article>
+      <article class="card"><h3>Pack imprimible</h3><p>Recordatorios de escritorio y hoja de “una sola tarea”.</p></article>
+    </section>
+    <section class="shop">
+      <h2>Shop EducationalLabsHDT</h2>
+      <p><strong>SKU:</strong> ELHDT-FOCUS21-001 · Digital · Estudiantes y padres</p>
+      <p>Pago: Stripe / PayPal (conectar en producción). Entrega: PDF + checklist por correo.</p>
+    </section>
+  </main>
+  <footer>© 2026 EducationalLabsHDT · Catálogo interno para no repetir SKUs.</footer>
+</body>
+</html>

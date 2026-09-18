@@ -1,0 +1,15 @@
+{
+  "brand": "EducationalLabsHDT",
+  "updated": "2026-09-18",
+  "products": [
+    {
+      "sku": "ELHDT-FOCUS21-001",
+      "name": "Focus Lab 21",
+      "type": "digital",
+      "price_usd": 27,
+      "audience": ["students", "parents"],
+      "status": "live",
+      "notes": "Primer SKU. Kit 21 dias estudio."
+    }
+  ]
+}
